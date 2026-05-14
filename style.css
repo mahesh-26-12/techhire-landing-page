@@ -1,5 +1,10 @@
     body {
         font-family: 'Poppins',sans-serif;
+        line-height: 1.6;
+    }
+
+    html{
+        scroll-behavior: smooth;
     }
 
     .hero {
@@ -76,8 +81,10 @@
         transition: 0.3s;
     }
 
-    .feature-card:hover {
-        transform: translate(-8px);
+    .feature-card:hover,
+    .testimonial-card:hover {
+        transform: translateY(-10px);
+        transition: 0.3s ease;
     }
 
     .testimonials {
@@ -111,6 +118,12 @@
 .navbar-brand {
     color: #667eea;
     font-weight: bold;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 
