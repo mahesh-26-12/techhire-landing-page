@@ -9,6 +9,7 @@
     }
 
     .hero h1{
+        line-height: 1.2;
         font-size: 52px;
         font-weight: 700;
         
@@ -21,7 +22,7 @@
 
     .hero p {
         margin: 20px 0;
-        font-size: 18px;
+        
     }
 
     .features {
@@ -68,9 +69,10 @@
 
     .feature-card {
         background: white;
-        padding: 25px;
+        border: none;
+        padding: 30px;
         border-radius: 15px;
-        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        box-shadow: 0 15px 30px rgba(0,0,0,0.08);
         transition: 0.3s;
     }
 
@@ -97,6 +99,7 @@
 
     p {
         color: #121111;
+        font-size: 16px;
     }
 
     img {
@@ -104,3 +107,10 @@
   height: 300px;
   object-fit: cover;
 }
+
+.navbar-brand {
+    color: #667eea;
+    font-weight: bold;
+}
+
+
